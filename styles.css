@@ -1,0 +1,51 @@
+body{
+  align-content: center;
+  align-items: center;
+}
+
+#grid{
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.block{
+  height: 10px;
+  width: 10px;
+  background-color: grey;
+}
+.line{
+  height: 10px;
+  width: 10px;
+  background-color: white;
+}
+.playerOneLine{
+  height: 10px;
+  width: 10px;
+  background-color: blue;
+}
+.playerTwoLine{
+  height: 10px;
+  width: 10px;
+  background-color: red;
+}
+
+.playerOne{
+  height: 10px;
+  width: 10px;
+  background-color: blue;
+}
+.playerTwo{
+  height: 10px;
+  width: 10px;
+  background-color: red;
+}
+.ball{
+  height: 10px;
+  width: 10px;
+  background-color: black;
+}
